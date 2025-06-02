@@ -1,0 +1,63 @@
+nav{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+    background-color: darkgrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+.Home{
+    color:white;
+    font-style: normal;
+    text-decoration: none;
+}
+nav:hover{
+        background-color: rgb(111, 111, 111);
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+.game{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    width: 75%;
+    height: 65%;
+}
+.FullScreen{
+    position: absolute;
+    top: 94%;
+    left: 90%;
+    border-radius: 7px;
+    border: solid 3px black;
+    background-color: darkgrey;
+    height: 30px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.FullScreen:hover{
+    background-color: rgb(111, 111, 111);
+}
+.RSnav{
+    display: block;
+    background-image: url("https://res.cloudinary.com/dyn3grpqv/image/upload/v1748608832/rollingSimg_khnlpo.png");
+    width: calc(577px/2);
+    height: calc(336px/2);
+    background-size: 100% 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+.RSnav:hover{
+    border-color: green;
+}
